@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  @apply box-border p-0 m-0;
+}
+
+button,
+input {
+  @apply outline-none border border-gray-300;
 }
